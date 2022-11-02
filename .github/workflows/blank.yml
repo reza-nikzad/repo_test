@@ -32,3 +32,4 @@ jobs:
         run: |
           echo Add other actions to build,
           echo test, and deploy your project.
+          mkdir /usr/bin/git config --global --add safe.directory /home/runner/work/repo_test/repo_test/reza_dir
