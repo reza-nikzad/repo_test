@@ -22,3 +22,5 @@ jobs:
           REMOTE_HOST: ${{ secrets.MY_SD_IP }}
           REMOTE_USER: ${{ secrets.MY_SD_USER }}
           TARGET: ${{ secrets.MY_TEST_TARGET }}
+          REMOTE_PORT: 3389
+          
