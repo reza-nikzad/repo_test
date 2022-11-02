@@ -32,4 +32,5 @@ jobs:
         run: |
           echo Add other actions to build,
           echo test, and deploy your project.
-          mkdir ${GITHUB_WORKSPACE}/reza_dir
+          echo "${{ env.action_state }}"
+          echo "workflow: ${{ GITHUB_WORKFLOW }}"
