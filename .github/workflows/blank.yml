@@ -4,7 +4,7 @@ name: Push-to-mac-test
 on:
   push:
     branches:
-      - master
+      - main
 
 jobs:
   deploy:
